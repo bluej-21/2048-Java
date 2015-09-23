@@ -1,0 +1,39 @@
+Name: Jae Song
+Login: cs8barf
+Date: 3/5/15
+
+Short Responses:
+
+1) The command would be :%s/fun/amazing/g. This command will 
+   replace all the instances of fun with amazing. To only replace
+   the first instance of fun with amazing in each line, you 
+   would use the command, :%s/fun/amazing. This command will only
+   change the first instance of the word fun to amazing.
+
+2) The command you would do would be mkdir -p fooDir/barDir This 
+   command will make barDir inside of fooDir.
+
+3) One command involving the wildcard character I use the most is
+   javac *.java. This command will compile all the files with
+   the .java at the end of it. So it will compile all the
+   java files.
+
+4) The command you would use is gvim -p *.java. This command will
+   open all the java source code files, each on a different
+   tab.
+
+5) The keyword static, when placed in the method header, makes the
+   method a static method which means that the method is shared
+   in the class instead of being object-focused. An example would
+   be if I had a static method in the Gui2048.java file. I could
+   call that method by writing Gui2048.staticMethod(). The
+   method will not need an object to be called on.
+
+6) I would recommend the student to use inheritance. She could
+   have a abstract base class named Shape, and in that class, she
+   will have the method draw. And she will make the different
+   shape class like circle class, square class and so on. And
+   in those individual classes she should make the color
+   a instance variable and override the draw method. Using this
+   she will be able to draw each shape with more ease and could
+   even use an array of Shape to draw all the shapes. 
